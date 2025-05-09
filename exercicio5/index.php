@@ -9,7 +9,7 @@
 <body>
 <div class="container">
     <h1>Validação de Idade</h1>
-    <form method="POST" action="">
+    <form action="calcular.php" method="post">
         <label for="idade">Digite sua idade:</label>
         <input type="number" id="idade" name="idade" required>
         <button type="submit">Validar</button>
